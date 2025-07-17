@@ -1,0 +1,40 @@
+[
+  {
+    "id": "8b658664-c17f-4b27-8138-87c2376539ba",
+    "name": "Test",
+    "version": "1.0",
+    "states": [
+      {
+        "id": "start",
+        "name": "Start",
+        "isInitial": true,
+        "isFinal": false,
+        "enabled": true,
+        "description": null
+      },
+      {
+        "id": "end",
+        "name": "End",
+        "isInitial": false,
+        "isFinal": true,
+        "enabled": true,
+        "description": null
+      }
+    ],
+    "actions": [
+      {
+        "id": "finish",
+        "name": "Finish",
+        "enabled": true,
+        "fromStates": [
+          "start"
+        ],
+        "toState": "end",
+        "description": null
+      }
+    ],
+    "description": null,
+    "createdAt": "2025-07-17T18:21:49.934865Z",
+    "updatedAt": "2025-07-17T18:21:49.9348776Z"
+  }
+]
